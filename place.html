@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Suggestions</title>
+<style>
+  body{
+    <meta name="viewport" content=width=device-width, initial-scale="1.0">
+  }
+  header{
+    text-align: center;
+    padding:30px;
+    font-size: 500%;
+    background-color: crimson;
+    color: white;
+}
+#img1{
+  float:left;
+}
+#img2{
+    float: right;
+  }
+.navigation{
+    overflow: hidden;
+  
+    background-color: green;
+  }
+ .navigation a{
+    float: left;
+    color:white;
+    text-decoration: none;
+    padding: 13px;
+   
+  }
+  .navigation a:hover{
+    background-color: black;
+  }
+  h1{
+    font-size: 300%;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: 150%;
+}
+input, select, textarea{
+ 
+  width: 100%;
+  padding:12px 20px;
+  margin:8px 0px;
+  box-sizing: border-box;
+}
+form{
+  background-color: lightgrey;
+  padding: 10px;
+}
+footer{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+</style>
+</head>
+<body>
+  <header>NEPAL
+  <img id="img1" src="n1.gif" alt="nepal" width="100px" height="100px">
+  <img id="img2" src="14.png" alt="nepal" width="100px" height="100px">
+</header>
+<nav class="navigation">
+<a href="index.html">HOME</a>
+</nav>
+<h1>&#10016 YOUR SUGGESTIONS HERE &#10016</h1>
+<p style="text-align: justify;"><b>This is your place so please feel free to give me your feedback and suggestion. That is what I need from you. It would be of great help.</b>
+</p>
+<form>
+ <label>Name:</label>
+ <input type="text" name="Name" placeholder="Your Name here." required>
+ <label>Email:</label>
+ <input type="email" name="Email" placeholder="Your E-mail Here." required>
+ <label>Country:</label>
+<select>
+  <option>Nepal</option>
+  <option>India</option>
+  <option>China</option>
+  <option>Japan</option>
+  <option>Bhutan</option>
+  <option>Bangladesh</option>
+  <option>Singapore</option>
+  <option>Other</option>
+</select>
+<label>Your Suggestion:</label>
+<textarea></textarea>
+<input type="submit" name="Submit">
+
+</form>
+<footer>All right reserved &copy , 2021</footer>
+</body>
+</html>
